@@ -1,10 +1,10 @@
 <div align="center">
   <h1>🌴 AI RESUME ANALYZER 🌴</h1>
   <p>A Tool for Resume Analysis, Predictions and Recommendations</p>
+  <br/><br/>
   
 ## About the Project 🥱
 <div align="center">
-    <br/><br/>
     <p align="justify"> 
       A tool which parses information from a resume using natural language processing and finds the keywords, cluster them onto sectors based on their keywords. 
       And lastly show recommendations, predictions, analytics to the applicant / recruiter based on keyword matching.
@@ -115,7 +115,7 @@ To run this project, perform the following tasks 😨
 
 Download the code file manually or via git
 ```bash
-git clone 
+git clone https://github.com/SrivatsanMK/AI-RESUME-ANALYZER.git
 ```
 
 Create a virtual environment and activate it **(recommended)**
@@ -145,7 +145,6 @@ python -m spacy download en_core_web_sm
 After installation is finished create a Database ```cv```
 
 And change user credentials inside ```App.py```
-https://github.com/deepakpadhi986/AI-Resume-Analyzer/blob/17e1cdb207fef62557dc394f4158bda515e541fd/App/App.py#L95
 
 Go to ```venvapp\Lib\site-packages\pyresparser``` folder
 
@@ -160,4 +159,5 @@ I hope that your ``venvapp`` is activated and working directory is inside ``App`
 Run the ```App.py``` file using
 ```bash
 streamlit run App.py
+
 ```
